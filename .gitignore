@@ -4,9 +4,11 @@
 node_modules/
 
 # Expo
+.env
 .expo/
 dist/
 web-build/
+*.json
 
 # Native
 *.orig.*
