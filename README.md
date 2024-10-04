@@ -2,84 +2,71 @@
 
 ## Introduction
 
-O projeto "SP Transportes" é uma aplicação mobile desenvolvida com **React Native** que visa melhorar a visibilidade e acessibilidade dos usuários ao transporte público na região central de São Paulo. Através da integração com a **API Olho Vivo** da SPTrans, o aplicativo exibe as linhas de ônibus em tempo real, permitindo que os usuários pesquisem, visualizem e acompanhem o status das linhas diretamente no mapa interativo do Google Maps.
+The **SP Transportes** project is a mobile application developed with **React Native** that aims to improve the visibility and accessibility of public transport for users in downtown São Paulo. Through the integration with **SPTrans' Olho Vivo API**, the app displays real-time bus lines, allowing users to search, view, and track the status of bus routes directly on an interactive Google Map.
 
 <p align="center">
-  <img src="./public/icon.png" alt="Protótipo do app" width="400" height="400">
+  
+  <img src="./public/icon.png" alt="App Prototype" width="300" height="300">
+  
 </p>
 
-Além disso, para facilitar a interação do usuário, foram incorporadas outras APIs, como o **Google Maps API** e funcionalidades de geolocalização para uma experiência de navegação aprimorada.
+Additionally, to enhance user interaction, other APIs were incorporated, such as the **Google Maps API** and geolocation features for an improved navigation experience.
+
 
 <p align="center">
-  <img src="./public/image-1.png" alt="Protótipo do app" width="250" height="400">
+  
+  <img src="./public/image-1.png" alt="App Prototype">
+  
 </p>
 
-## Funcionalidades Principais
 
-- Exibição de linhas de ônibus em tempo real com base na API Olho Vivo.
-- Integração com o Google Maps para uma visualização geográfica das linhas de ônibus.
-- Barra de pesquisa para facilitar a busca de linhas.
-- Geolocalização do usuário para indicar sua posição no mapa.
-- Implementação de login com Google utilizando o **Google Sign-In**.
-- Documentação detalhada de todo o desenvolvimento do app.
+## Key Features
 
-## Ferramentas e Tecnologias Utilizadas
+- Real-time display of bus routes based on the Olho Vivo API.
+- Integration with Google Maps for a geographical view of bus routes.
+- Search bar to easily find bus lines.
+- User geolocation to display their position on the map.
+- Implementation of Google login via **Google Sign-In**.
+- Comprehensive documentation of the entire app development process.
 
-- **React Native**: Framework principal para o desenvolvimento mobile.
-- **Expo**: Utilizado para facilitar o desenvolvimento e a construção do projeto.
-- **Olho Vivo API**: API da SPTrans para obtenção de dados em tempo real sobre as linhas de ônibus.
-- **Google Maps API**: Para exibir os mapas e as rotas de transporte público.
-- **Axios**: Biblioteca para fazer as requisições HTTP.
-- **React Native Geolocation**: Para obter a localização do usuário em tempo real.
-- **React Native Google Sign-In**: Para implementar o login via Google.
+## Tools and Technologies Used
+
+- **React Native**: The main framework used for mobile development.
+- **Expo**: Facilitates app development and builds.
+- **Olho Vivo API**: SPTrans' API for real-time bus data.
+- **Google Maps API**: Used to display maps and public transport routes.
+- **Axios**: Library used for HTTP requests.
+- **React Native Geolocation**: To obtain the user's real-time location.
+- **React Native Google Sign-In**: To implement Google login functionality.
+
 
 <p align="center">
-  <img src="./public/image-2.jpeg" alt="Tela de Seleção de Linha de Ônibus" width="250" height="400">
+  <img src="./public/image-2.jpeg" alt="Bus Line Selection Screen" width="250" height="400">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./public/image-4.jpeg" alt="Bus Line Display Screen" width="250" height="400">
 </p>
 
-## Design do App
 
-O design do aplicativo foi feito no Figma, seguindo um layout minimalista e intuitivo para facilitar o uso, tanto para quem está acostumado com a tecnologia quanto para quem tem pouca experiência. As principais telas são:
+## App Design
 
-1. **Protótipo**: Esboço inicial das funcionalidades.
-2. **Menu**: Tela inicial com opções de navegação.
-3. **Seleção de Linha**: Exibe as opções de linhas disponíveis.
-4. **Exibição da Linha Selecionada**: Mostra a linha de ônibus escolhida no mapa.
-5. **Estado de Pesquisa**: Permite que o usuário busque por uma linha específica.
+The app's design was created in Figma, following a minimalist and intuitive layout to make it easy to use, whether the user is familiar with technology or has little experience. The main screens include:
 
-Todas as imagens relacionadas ao protótipo e aos estados do aplicativo estão armazenadas na pasta \`public\`, com o nome de \`image-1.jpeg\` até \`image-5.jpeg\`.
+1. **Prototype**: Initial draft of the app's functionalities.
+2. **Menu**: Initial screen with navigation options.
+3. **Bus Line Selection**: Displays available bus line options.
+4. **Selected Bus Line Display**: Shows the selected bus line on the map.
+5. **Search State**: Allows users to search for a specific bus line.
+
+All images related to the app prototype and its states are stored in the \`public\` folder, named \`image-1.jpeg\` to \`image-5.jpeg\`.
 
 <p align="center">
-  <img src="./public/image-3.jpeg" alt="Estado de Pesquisa" width="250" height="400">
+  <img src="./public/image-3.jpeg" alt="Search State" width="250" height="400">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./public/image-5.jpeg" alt="Search State" width="250" height="400">
 </p>
 
-## Estrutura de Código
-
-### [Arquivo Principal].tsx
-
-\`\`\`tsx
-[COLE O CÓDIGO AQUI]
-\`\`\`
-
-### [Arquivo de Configuração de Rotas].tsx
-
-\`\`\`tsx
-[COLE O CÓDIGO AQUI]
-\`\`\`
-
-### [Componente de Mapa].tsx
-
-\`\`\`tsx
-[COLE O CÓDIGO AQUI]
-\`\`\`
-
-### [Função de Requisição API com Axios]
-
-\`\`\`tsx
-[COLE O CÓDIGO AQUI]
-\`\`\`
-
-## Referências
+## References
 
 - [Expo Documentation](https://docs.expo.dev/)
 - [Axios Documentation](https://axios-http.com/ptbr/docs/intro)
@@ -89,8 +76,8 @@ Todas as imagens relacionadas ao protótipo e aos estados do aplicativo estão a
 - [React Native Google Sign-In](https://github.com/react-native-google-signin/google-signin)
 - [Expo Location SDK](https://docs.expo.dev/versions/latest/sdk/location/)
 
-## Contato
+## Contact
 
-Para mais informações sobre o projeto ou colaborações, entre em contato:
+For more information about the project or collaboration inquiries, feel free to reach out:
 
-- **Email**: [SEU EMAIL AQUI]
+- **Email**: vsandre40@gmail.com
