@@ -5,7 +5,7 @@
 O projeto "SP Transportes" é uma aplicação mobile desenvolvida com **React Native** que visa melhorar a visibilidade e acessibilidade dos usuários ao transporte público na região central de São Paulo. Através da integração com a **API Olho Vivo** da SPTrans, o aplicativo exibe as linhas de ônibus em tempo real, permitindo que os usuários pesquisem, visualizem e acompanhem o status das linhas diretamente no mapa interativo do Google Maps.
 
 <p align="center">
-  <img src="./public/image-0.png" alt="Protótipo do app" width="250" height="400">
+  <img src="./public/image.png" alt="Protótipo do app" width="250" height="400">
 </p>
 
 Além disso, para facilitar a interação do usuário, foram incorporadas outras APIs, como o **Google Maps API** e funcionalidades de geolocalização para uma experiência de navegação aprimorada.
